@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Menu</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: black;
+        }
+        .menu-section {
+            padding: 50px 0;
+        }
+        .menu-item img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+        .footer {
+            background: #222;
+            color: white;
+            text-align: center;
+            padding: 15px 0;
+            margin-top: 30px;
+        }
+        .category-title {
+            margin-top: 40px;
+            border-bottom: 2px solid #000;
+            padding-bottom: 10px;
+        }
+        h2{
+            color: white;
+        }
+        h3{
+            color: white;
+        }
+ 
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Swigyy</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="menu.html">Menu</a></li>
+                    <li class="nav-item"><a class="nav-link" href="orderpage.html">order</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Menu Section -->
+    <div class="container menu-section">
+        <h2 class="text-center">Our Menu</h2>
+
+        <!-- Veg Category -->
+        <h3 class="category-title">Vegetarian Dishes 🥦</h3>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card menu-item">
+                    <img src="download (2).jpeg" alt="Veg Dish 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Paneer Butter Masala</h5>
+                       
+                        <p><strong>Price: $12</strong></p>
+                        <a href="order.php?item=veg1" class="btn btn-primary">BUY NOW</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card menu-item">
+                    <img src="download (3).jpeg" alt="Veg Dish 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Vegetable Biryani</h5>
+                       
+                        <p><strong>Price: $10</strong></p>
+                        <a href="order.php?item=veg2" class="btn btn-primary">BUY NOW</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card menu-item">
+                    <img src="download (4).jpeg" alt="Veg Dish 2">
+                    <div class="card-body">
+                        <h5 class="card-title">saag panner</h5>
+                       
+                        <p><strong>Price: $10</strong></p>
+                        <a href="order.php?item=veg2" class="btn btn-primary">BUY NOW</a>
+                    </div>
+                </div>
+            </div><hr>
+            <div class="col-md-4">
+                <div class="card menu-item">
+                    <img src="download (5).jpeg" alt="Veg Dish 2">
+                    <div class="card-body">
+                        <h5 class="card-title">red lentil curry</h5>
+                      
+                        <p><strong>Price: $10</strong></p>
+                        <a href="order.php?item=veg2" class="btn btn-primary">BUY NOW</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card menu-item">
+                    <img src="download (6).jpeg" alt="Veg Dish 2">
+                    <div class="card-body">
+                        <h5 class="card-title">chickpea curry</h5>
+                       
+                        <p><strong>Price: $10</strong></p>
+                        <a href="order.php?item=veg2" class="btn btn-primary">BUY NOW</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card menu-item">
+                    <img src="download (7).jpeg" alt="Veg Dish 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Dal fry</h5>
+                       
+                        <p><strong>Price: $10</strong></p>
+                        <a href="order.php?item=veg2" class="btn btn-primary">BUY NOW</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Non-Veg Category -->
+        <h3 class="category-title">Non-Vegetarian Dishes 🍗</h3>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card menu-item">
+                    <img src="download (8).jpeg" alt="Non-Veg Dish 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Mutoon curry</h5>
+                      
+                        <p><strong>Price: $15</strong></p>
+                        <a href="order.php?item=nonveg1" class="btn btn-primary">BUY NOW</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card menu-item">
+                    <img src="download (9).jpeg" alt="Non-Veg Dish 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Fish Curry</h5>
+                        
+                        <p><strong>Price: $18</strong></p>
+                        <a href="order.php?item=nonveg2" class="btn btn-primary">BUY NOW</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card menu-item">
+                    <img src="download (10).jpeg" alt="Non-Veg Dish 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Lamb Curry</h5>
+                       
+                        <p><strong>Price: $18</strong></p>
+                        <a href="order.php?item=nonveg2" class="btn btn-primary">BUY NOW</a>
+                    </div>
+                </div>
+            </div><hr>
+            <div class="col-md-4">
+                <div class="card menu-item">
+                    <img src="download (11).jpeg" alt="Non-Veg Dish 2">
+                    <div class="card-body">
+                        <h5 class="card-title">keema curry</h5>
+                        
+                        <p><strong>Price: $18</strong></p>
+                        <a href="order.php?item=nonveg2" class="btn btn-primary">BUY NOW</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card menu-item">
+                    <img src="download (12).jpeg" alt="Non-Veg Dish 2">
+                    <div class="card-body">
+                        <h5 class="card-title">mutton biryani</h5>
+                      
+                        <p><strong>Price: $18</strong></p>
+                        <a href="order.php?item=nonveg2" class="btn btn-primary">BUY NOW</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card menu-item">
+                    <img src="download (13).jpeg" alt="Non-Veg Dish 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Mutton Fry</h5>
+                      
+                        <p><strong>Price: $18</strong></p>
+                        <a href="order.php?item=nonveg2" class="btn btn-primary">BUY NOW</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Other Dishes Category -->
+        <h3 class="category-title">Other Dishes 🍕</h3>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card menu-item">
+                    <img src="download (14).jpeg" alt="Other Dish 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Cheese Pizza</h5>
+                       
+                        <p><strong>Price: $8</strong></p>
+                        <a href="order.php?item=other1" class="btn btn-primary">BUY NOW</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card menu-item">
+                    <img src="download (15).jpeg" alt="Other Dish 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Chocolate Brownie</h5>
+                        
+                        <p><strong>Price: $6</strong></p>
+                        <a href="order.php?item=other2" class="btn btn-primary">BUY NOW</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card menu-item">
+                    <img src="download (16).jpeg" alt="Other Dish 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Veg Burger</h5>
+                       
+                        <p><strong>Price: $6</strong></p>
+                        <a href="order.php?item=other2" class="btn btn-primary">BUY NOW</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2025 Restaurant Name. All Rights Reserved.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
